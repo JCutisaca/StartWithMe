@@ -19,10 +19,10 @@ export default function RootLayout({
     <html lang="es">
       <Head>
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content={metadata.description as string} />
-        <meta name="keywords" content="amor, propuestas, sorpresa, jóvenes, declaración, proponer, novia" />
-        <meta name="author" content="Lucas Soldier" />
+        <meta property="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="description" content={metadata.description as string} />
+        <meta property="keywords" content="amor, propuestas, sorpresa, jóvenes, declaración, proponer, novia" />
+        <meta property="author" content="Lucas Soldier" />
         <title>{metadata.title as string}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
