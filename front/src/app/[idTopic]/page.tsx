@@ -72,7 +72,7 @@ export default function StartWithMe() {
                 ...page,
                 title: "Princesa Peach, aquí me tienes. Jejeje. Creo que el amor nos obliga a salir del caparazón. Gobernemos el mundo juntos por siempre, ¿Te gustaría ser mi novia?",
                 imageUrl: "https://res.cloudinary.com/dvuhnhe50/image/upload/v1703880431/Super_mario_g62udg.png",
-                html: '<iframe style="width: 100%; height: 16rem;" src="https://www.youtube.com/embed/U2ybLufNxAc?autoplay=1" title="Reproductor de video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+                html: '<iframe style="width: 100%; height: 16rem;" src="https://www.youtube.com/embed/U2ybLufNxAc?autoplay=1&start=31" title="Reproductor de video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
                 message: "¡Gracias por aceptar este viaje mágico a nuestro propio Reino Champiñón! 🍄💖"
             })
             return
