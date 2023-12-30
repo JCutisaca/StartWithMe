@@ -36,15 +36,18 @@ export default function Home() {
   ]
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-        {cards.map(({ title, imageUrl, link }) => {
-          return <Card
-            key={title}
-            title={title}
-            imageUrl={imageUrl}
-            link={link}
-          />
-        })}
+      <div>
+        <h1 className="text-4xl font-bold text-center text-blue-500 py-4">¡Haz de tu declaración de amor un momento épico y único!</h1>
+        <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+          {cards.map(({ title, imageUrl, link }) => {
+            return <Card
+              key={title}
+              title={title}
+              imageUrl={imageUrl}
+              link={link}
+            />
+          })}
+        </div>
       </div>
     </div>
   )

@@ -93,7 +93,7 @@ export default function StartWithMe() {
                 ...page,
                 title: "¿Quieres ser mi compañera en esta batalla del amor? ¡Sácame de la friendzone, maldita insecta!",
                 imageUrl: "https://res.cloudinary.com/dvuhnhe50/image/upload/v1703835489/vegeta_z0bwij.jpg",
-                html: '<iframe style="width: 100%; height: 16rem;" src="https://www.youtube.com/embed/UW-OqLmaSiQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+                html: '<iframe style="width: 100%; height: 16rem;" src="https://www.youtube.com/embed/UW-OqLmaSiQ?autoplay=1&start=137" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
                 message: "SIUUUU Este fue el momento exacto en el que me enamore de ti 😄"
             })
             return
@@ -137,7 +137,7 @@ export default function StartWithMe() {
                 <Image
                     width={'400'}
                     height={'400'}
-                    className='w-[100%] max-w-xl rounded-3xl my-2'
+                    className='w-[100%] max-w-96 rounded-3xl my-2'
                     src={page?.imageUrl}
                     alt={''}
                 />
