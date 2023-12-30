@@ -15,7 +15,7 @@ export default function Home() {
     },
     {
       title: "Super Mario",
-      imageUrl: "https://res.cloudinary.com/dvuhnhe50/image/upload/v1703915739/superMario_wej8vn.png",
+      imageUrl: "https://res.cloudinary.com/dvuhnhe50/image/upload/v1703972538/superMario_tjifzk.png",
       link: "https://start-with-me.vercel.app/superMario"
     },
     {

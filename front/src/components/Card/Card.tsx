@@ -42,6 +42,7 @@ const Card: React.FC<CardProps> = ({title, imageUrl, link}) => {
                 value={link}
                 readOnly
                 onClick={handleInputClick}
+                className='max-w-40'
             />
             <button className="bg-black rounded-3xl text-white w-16" onClick={handleCopyClick}>Copiar</button>
         </div>

@@ -24,6 +24,7 @@ export default function RootLayout({
         <meta name="keywords" content="amor, propuestas, sorpresa, jóvenes, declaración, proponer, novia" />
         <meta name="author" content="Lucas Soldier" />
         <title>{metadata.title as string}</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
