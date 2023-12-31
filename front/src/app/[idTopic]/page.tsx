@@ -93,8 +93,8 @@ export default function StartWithMe() {
                 ...page,
                 title: "¿Quieres ser mi compañera en esta batalla del amor? ¡Sácame de la friendzone, maldita insecta!",
                 imageUrl: "https://res.cloudinary.com/dvuhnhe50/image/upload/v1703835489/vegeta_z0bwij.jpg",
-                html: '<iframe style="width: 100%; height: 16rem;" src="https://www.youtube.com/embed/UW-OqLmaSiQ?autoplay=1&start=137" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-                message: "SIUUUU Este fue el momento exacto en el que me enamore de ti 😄"
+                html: '<iframe style="width: 100%; height: 16rem;" src="https://www.youtube.com/embed/Mz7ruk47rc0?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+                message: "Yo si pasaria año nuevo contigo bb 😉"
             })
             return
         }
